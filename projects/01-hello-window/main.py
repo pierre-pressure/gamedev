@@ -9,6 +9,8 @@ pygame.display.set_caption("Schwarzes Fenster 1 - The Beginning Of The Void!")
 clock = pygame.time.Clock()
 frame_count = 0
 
+# ----------------------------------------------------------------------------------------------------
+
 running = True
 while running:
     for event in pygame.event.get():
@@ -20,6 +22,10 @@ while running:
                     case pygame.K_ESCAPE:
                         running = False
 
+    # ----------------------------------------------------------------------------------------------------
+
+    # ----------------------------------------------------------------------------------------------------
+
     screen.fill((0, 0, 0))
 
     pygame.display.flip()
@@ -30,6 +36,8 @@ while running:
         print(f"Game Loop läuft... FPS: {fps:.0f}")
 
     clock.tick(FPS)
+
+# ----------------------------------------------------------------------------------------------------
 
 print("Spiel wurde beendet!")
 pygame.quit()
