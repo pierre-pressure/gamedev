@@ -62,6 +62,5 @@ Ein **800x600 Pixel** schwarzes Fenster mit dem Titel **"Mein erstes Spiel"** er
 projects/01-hello-window/
 ├── main.py
 ├── main_c.py
-├── notes.py
 └── README.md
 ```
